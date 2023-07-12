@@ -4,8 +4,8 @@
   "description": "Facebook Clone Coding",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "cross-env NODE_ENV=production PORT=3000 node app.js"
+    "start": "cross-env NODE_ENV=production PORT=3000 node app.js",
+    "dev": "npx nodemon app.js"
   },
   "author": "",
   "license": "ISC",
